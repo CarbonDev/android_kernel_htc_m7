@@ -4670,8 +4670,4 @@ void __init m7_init_cam(void)
 	}
 #endif
 }
-
-#endif	
-
-
-
+#endif

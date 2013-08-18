@@ -338,7 +338,6 @@ struct msm_camera_sensor_platform_info {
 	void *privacy_light_info;
 	enum sensor_mount_angle sensor_mount_angle; 
 	bool ews_enable;
-	
 };
 
 enum msm_camera_actuator_name {
