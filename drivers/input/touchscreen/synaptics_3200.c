@@ -169,10 +169,10 @@ extern uint8_t touchscreen_is_on(void)
 } 
 
 #ifdef CONFIG_TOUCHSCREEN_SYNAPTICS_SWEEP2WAKE
-int s2w_switch = 1;
-int l2m_switch = 1;
+int s2w_switch = 0;
+int l2m_switch = 0;
 int l2w_switch = 0;
-int dt2w_switch = 1;
+int dt2w_switch = 0;
 int pocket_detect = 1;
 int s2w_wakestat = 0;
 int s2w_hist[2] = {0, 0};
